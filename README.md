@@ -1,15 +1,3 @@
-<p align="center">
-    <img src="https://img.shields.io/badge/python-3.10%2B-brightgreen">
-</p>
-
-![Logo](/images/big_logo.png)
-<h1 align="center">Disclaimer</h1>
-
-<p align="center">THIS SOFTWARE IS PROVIDED FOR EDUCATIONAL USE ONLY!</p>
-<p align="center">IF YOU ENGAGE IN ANY ILLEGAL ACTIVITY, THE AUTHOR IS NOT RESPONSIBLE FOR THIS AND FOR POSSIBLE ACCOUNT BLOCKING.</p>
-<p align="center">THE AUTHOR DOES NOT PUBLISH ANY IP ADDRESSES AND DOES NOT INVITE ANY ILLEGAL ACTIONS. ALL AT YOUR OWN RISK.</p>
-<p align="center">BY USING THIS SOFTWARE, YOU AGREE TO BE BOUND BY THESE TERMS. I WARNED YOU.</p>
-
 ## Contents
 * [Main information](#main-information)
     * [Features](#features)
@@ -22,9 +10,6 @@
     * [Docker compose local](#docker-compose-local)
     * [Python](#python)
 * [Screenshots](#screenshots)
-
-## Main information
-
 ### Features
 - Web interface (Dark and light theme, WOOOW)
 - Ability to import an account using all popular methods
