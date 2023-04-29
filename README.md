@@ -1,8 +1,4 @@
 <p align="center">
-    <img src="https://img.shields.io/github/license/DioniS1902/FRT" />
-    <img src="https://img.shields.io/github/stars/DioniS1902/FRT" />
-    <img src="https://img.shields.io/docker/pulls/dionis1902/frt" />
-    <img src="https://img.shields.io/github/downloads/Dionis1902/FRT/total">
     <img src="https://img.shields.io/badge/python-3.10%2B-brightgreen">
 </p>
 
@@ -26,8 +22,6 @@
     * [Docker compose local](#docker-compose-local)
     * [Python](#python)
 * [Screenshots](#screenshots)
-* [Coming soon](#coming-soon)
-* [Say thank you me](#say-thank-you-me)
 
 ## Main information
 
@@ -47,7 +41,7 @@
 You can find instructions on how to get an Api ID and Api hash [here](https://core.telegram.org/api/obtaining_api_id)
 
 ### Default credentials
-By default, the website is launched on port 8080 but you can change this 
+By default, the website is launched on port 8080 but you can change this
 ```
 Login: root
 Password: roottoor
@@ -70,8 +64,6 @@ Password: roottoor
 - Spam comments by channel
 - Spam PM
 - Vote poll
-- [Suggest a function](https://github.com/Dionis1902/FRT/issues/new?assignees=&labels=function&template=new-function.md&title=%5BFUNCTION%5D)
-
 ## How run
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/YGdHQR?referralCode=cTSsKD)
 ### Docker compose
@@ -83,7 +75,7 @@ version: "3.9"
 services:
   botnet:
     container_name: frt
-    image: dionis1902/frt:latest
+    image: botnet/frt:latest
     restart: always
     volumes:
       - ./data:/data
@@ -120,7 +112,7 @@ $ docker-compose run -d
 ### Docker compose local
 - Install docker and docker-compose
 ```
-$ git clone git@github.com:Dionis1902/FRT.git
+$ git clone git@github.com:HarismaLZT/Telegram-botnet.git
 $ cd FRT
 $ docker-compose build
 $ docker-compose run -d
@@ -129,17 +121,17 @@ $ docker-compose run -d
 ### Python
 - Install Python 3.10+
 ```
-$ git clone git@github.com:Dionis1902/FRT.git
+$ git clone git@github.com:HarismaLZT/Telegram-botnet.git
 $ cd FRT
 $ python -m venv env
 
-### Linux 
+### Linux
 $ source env/bin/activate
 $ export DATABASE_URL=postgresql://root:secret_password@127.0.0.1/data
 
 ### Windows
 $ .\env\Scripts\activate
-$ set DATABASE_URL=postgresql://root:secret_password@127.0.0.1/data 
+$ set DATABASE_URL=postgresql://root:secret_password@127.0.0.1/data
 
 $ pip install -r requirements.txt
 
@@ -156,20 +148,3 @@ $ uvicorn main:app --host 0.0.0.0 --port 8080
   <img src="/images/task.png" />
   <img src="/images/settings.png" />
 </details>
-
-## Coming soon
-- Live functions (For example, to automatically write comments under new posts)
-- Phishing link
-- Integration with ChatGPT or/and Dialogflow
-- Ability to write custom functions by visual programing like scratch
-
-## Say thank you me
-<p align="center">
-    <a href="https://www.buymeacoffee.com/Dionis1902"><img src="https://i.imgur.com/zE8Y8Dp.png"></a>
-</p>
-
-<p align="center">USDT (ERC20) : 0xB8314551f0633aee73f93Ff4389629B367e59189</p>
-<p align="center">USDT (TRC20) : TYJmX4R22NmSMBu7HWbwuwRr7TW9jN5az9</p>
-<p align="center">BTC : bc1q3jgp25rc8qtzx0fwd9ltpy45yv05hphu7pvwla</p>
-<p align="center">ETH : 0xB8314551f0633aee73f93Ff4389629B367e59189</p>
-<p align="center">BNB (Smart Chain) : 0xB8314551f0633aee73f93Ff4389629B367e59189</p>
