@@ -8,12 +8,12 @@ services:
     volumes:
       - ./data:/data
     ports:
-      - '8080:8080'
+      - '8080:80'
     depends_on:
       postgres:
         condition: service_healthy
     environment:
-      POSTGRES_URL: postgresql://root:secret_password@postgres/data
+      DATABASE_URL: postgresql://root:secret_password@postgres/data
 
   postgres:
     container_name: postgres_container
